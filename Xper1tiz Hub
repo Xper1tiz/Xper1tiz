@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Xper1tiz Hub", HidePremium = false, IntroText = "Welcome to Xper1tiz Hub |Make By Xper1tiz|", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "𝘟𝘱𝘦𝘳1𝘵𝘪𝘻 𝘏𝘶𝘣", HidePremium = false, IntroText = "Welcome to Xper1tiz Hub |Make By Xper1tiz|", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
-	Name = "Main",
+	Name = "𝘔𝘢𝘪𝘯",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -301,7 +301,7 @@ coroutine.wrap(RFHCP_fake_script)()
 })
 
 local Tab = Window:MakeTab({
-	Name = "Admin",
+	Name = "𝘈𝘥𝘮𝘪𝘯",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -3593,7 +3593,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Universal",
+	Name = "𝘜𝘯𝘪𝘷𝘦𝘳𝘴𝘢𝘭",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -5290,7 +5290,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Hubs",
+	Name = "𝘏𝘶𝘣𝘴",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -5370,7 +5370,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Games",
+	Name = "𝘎𝘢𝘮𝘦𝘴",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -5401,13 +5401,6 @@ Tab:AddButton({
 	Name = "Prodigy X Hub",
 	Callback = function()
         loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))() 
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Mendopt Me Hub",
-	Callback = function()
-        loadstring(game:HttpGet("https://scriptblox.com/raw/Adopt-Me!-Mendopt-Me-10132"))() 
   	end    
 })
 
